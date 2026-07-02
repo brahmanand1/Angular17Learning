@@ -1,0 +1,191 @@
+{
+  "src/app/reactive-form/reactive-form.component.html": {
+    "filename": "reactive-form.component.html",
+    "path": "src/app/reactive-form/reactive-form.component.html",
+    "version": "1.1",
+    "chunks": {
+      "ae09e9": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769708709,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "b9a83668",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "63bb36": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769711567,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "be9ad8fc",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6a1352": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769711623,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "c1bad18f",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "89f4be": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769712819,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "b2211c26",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "6": {
+        "chunkId": "ae09e9",
+        "hash": "03469704",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      },
+      "10": {
+        "chunkId": "63bb36",
+        "hash": "c2f1edd6",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "63bb36"
+        ]
+      },
+      "12": {
+        "chunkId": "6a1352",
+        "hash": "47b14edb",
+        "encoded": "%3Cbr/%3E",
+        "prevChunkIds": [
+          "6a1352"
+        ]
+      },
+      "13": {
+        "chunkId": "63bb36",
+        "hash": "69ff3adc",
+        "encoded": "%3Cdiv%3E",
+        "prevChunkIds": [
+          "63bb36"
+        ]
+      },
+      "17": {
+        "chunkId": "6a1352",
+        "hash": "9f5446bb",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": [
+          "6a1352"
+        ]
+      },
+      "19": {
+        "chunkId": "63bb36",
+        "hash": "50060e6d",
+        "encoded": "%3Cspan%3EPlease%20select%20a%20gender%3C/span%3E",
+        "prevChunkIds": [
+          "63bb36"
+        ]
+      },
+      "20": {
+        "chunkId": "89f4be",
+        "hash": "acbf036f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "89f4be",
+        "hash": "bbd982f3",
+        "encoded": "Reading%20:%20%3Cinput%20type=%22checkbox%22%20formControlName=%22reading%22%20%20/%3E",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "89f4be",
+        "hash": "9642d4ca",
+        "encoded": "Writing%20:%20%3Cinput%20type=%22checkbox%22%20formControlName=%22writing%22%20%20/%3E",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "89f4be",
+        "hash": "0145dec7",
+        "encoded": "Playing%20:%20%3Cinput%20type=%22checkbox%22%20formControlName=%22playing%22%20%20/%3E",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "89f4be",
+        "hash": "9edb2a1e",
+        "encoded": "@if(form.get('hobby')?.hasError('hobbyError')%20&&%20form.get('hobby')?.touched)%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "89f4be",
+        "hash": "abe970d2",
+        "encoded": "%3Cspan%3EPlease%20select%20at%20least%202%20hobbies%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "ae09e9",
+        "hash": "3669f749",
+        "encoded": "Password%20:%20%3Cinput%20type=%22text%22%20formControlName=%22password%22%20/%3E%20%3Cbr%20/%3E",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      },
+      "36": {
+        "chunkId": "ae09e9",
+        "hash": "4be8ba46",
+        "encoded": "Con%20Password%20:%20%3Cinput%20type=%22text%22%20formControlName=%22conPassword%22%20/%3E%20%3Cbr%20/%3E",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      },
+      "38": {
+        "chunkId": "ae09e9",
+        "hash": "a5a49688",
+        "encoded": "@if(form.hasError('passwordMismatch')%20&&%20form.get('conPassword')?.touched)%7B",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      },
+      "39": {
+        "chunkId": "ae09e9",
+        "hash": "6e149ee5",
+        "encoded": "%3Cspan%3EPasswords%20do%20not%20match%3C/span%3E",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      },
+      "44": {
+        "chunkId": "ae09e9",
+        "hash": "a28455b8",
+        "encoded": "%3Cbutton%3ESubmit%3C/button%3E",
+        "prevChunkIds": [
+          "ae09e9"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<h2>Counter: {{ counter$ | async}}</h2>
+<!-- <h3>Counter: {{ (counter$ | async)?.counter}}</h3> -->
+    <button (click)="increment()">+</button>
+    <button (click)="decrement()">-</button>
+    <button (click)="reset()">Reset</button>
+
+<p>home works!</p>
+<app-todo></app-todo>
+<!-- <app-contact></app-contact> -->
+<reactive-form></reactive-form>
+
+<h1>Data sharing</h1>
+<a routerLink="/parent">Go to Parent</a> | 
+<a routerLink="/parent/child">Go to Child</a>
+
+<router-outlet></router-outlet>

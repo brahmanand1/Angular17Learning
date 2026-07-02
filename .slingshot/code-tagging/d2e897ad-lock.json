@@ -1,0 +1,347 @@
+{
+  "src/app/reactive-form/reactive-form.component.ts": {
+    "filename": "reactive-form.component.ts",
+    "path": "src/app/reactive-form/reactive-form.component.ts",
+    "version": "1.1",
+    "chunks": {
+      "7de368": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769708579,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "17ee0399",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "3d7b73": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769711567,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "00000000",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "31829b": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769711623,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "bedb2a5d",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "f18e4c": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769712874,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "cb1ec47f",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6d4e59": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769712946,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "cb908de9",
+        "messageId": "dcc0548e-45f5-4715-adf2-4706d72a23b3",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "cd4f57": {
+        "user": "Brahmanand Mishra",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1769750944,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "chat",
+        "type": "pasteCode",
+        "hash": "12f822e1",
+        "messageId": "system_47a3fba0-fd9c-11f0-9872-194b89aeeef4",
+        "codeBlockId": "system_47a3fba0-fd9c-11f0-9872-194b89aeeef4-Codeblock-1",
+        "isActive": false
+      }
+    },
+    "lines": {
+      "16": {
+        "chunkId": "6d4e59",
+        "hash": "3d6b6d5c",
+        "encoded": "this.form%20=%20new%20FormGroup(%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "6d4e59",
+        "hash": "ea475ccc",
+        "encoded": "name%20:%20new%20FormControl('',%5BValidators.required,Validators.minLength(5),this.checkName%5D),",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "6d4e59",
+        "hash": "380c4d7c",
+        "encoded": "password%20:%20new%20FormControl('',%5BValidators.required,Validators.minLength(10)%5D),",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "6d4e59",
+        "hash": "9f02472c",
+        "encoded": "conPassword%20:%20new%20FormControl(''),",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "6d4e59",
+        "hash": "61664b28",
+        "encoded": "gender%20:%20new%20FormControl('',%20%5BValidators.required%5D),",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "6d4e59",
+        "hash": "daa99065",
+        "encoded": "hobby%20:%20new%20FormGroup(%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "6d4e59",
+        "hash": "92ec3804",
+        "encoded": "reading%20:%20new%20FormControl(false),",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "6d4e59",
+        "hash": "e367b4e1",
+        "encoded": "writing%20:%20new%20FormControl(false),",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "6d4e59",
+        "hash": "a261358b",
+        "encoded": "playing%20:%20new%20FormControl(false)",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "6d4e59",
+        "hash": "a129a362",
+        "encoded": "%7D,%7Bvalidators%20:%20this.hobbyVali%7D)",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "6d4e59",
+        "hash": "0c28d9dd",
+        "encoded": "%7D,%7B%20validators:%20this.passwordMatch%20%7D)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "f18e4c",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "40": {
+        "chunkId": "7de368",
+        "hash": "792377b1",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "f18e4c",
+          "7de368"
+        ]
+      },
+      "42": {
+        "chunkId": "f18e4c",
+        "hash": "eb40ce13",
+        "encoded": "hobbyVali%20=%20(formGroup%20:%20any)=%3E%7B",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "43": {
+        "chunkId": "f18e4c",
+        "hash": "44993ce7",
+        "encoded": "console.log(%22This%20is%20checkbox%20validation%22,formGroup)",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "44": {
+        "chunkId": "f18e4c",
+        "hash": "634ea640",
+        "encoded": "const%20controls%20=%20formGroup.controls;",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "45": {
+        "chunkId": "f18e4c",
+        "hash": "ff720172",
+        "encoded": "const%20checkedHobbies%20=%20Object.values(controls).filter((control:any)%20=%3E%20control.value%20===%20true);",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "47": {
+        "chunkId": "f18e4c",
+        "hash": "c3649054",
+        "encoded": "if(checkedHobbies.length%20%3C%202)%7B",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "48": {
+        "chunkId": "f18e4c",
+        "hash": "4869df5e",
+        "encoded": "return%20%7BhobbyError%20:%20true%7D",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "49": {
+        "chunkId": "f18e4c",
+        "hash": "0b4804f7",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "50": {
+        "chunkId": "f18e4c",
+        "hash": "2a628696",
+        "encoded": "return%20null;",
+        "prevChunkIds": [
+          "f18e4c"
+        ]
+      },
+      "51": {
+        "chunkId": "7de368",
+        "hash": "38b604dc",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "60": {
+        "chunkId": "7de368",
+        "hash": "42f7c135",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "62": {
+        "chunkId": "7de368",
+        "hash": "646a8e84",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "66": {
+        "chunkId": "7de368",
+        "hash": "14ba35af",
+        "encoded": "const%20password%20=%20abc.get('password')?.value;",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "67": {
+        "chunkId": "7de368",
+        "hash": "b02bdae9",
+        "encoded": "const%20conPassword%20=%20abc.get('conPassword')?.value;",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "69": {
+        "chunkId": "7de368",
+        "hash": "d9510838",
+        "encoded": "if%20(!password%20%7C%7C%20!conPassword)%20%7B",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "70": {
+        "chunkId": "7de368",
+        "hash": "4e5d6b45",
+        "encoded": "return%20null;%20//%20Don't%20validate%20if%20either%20field%20is%20empty",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "71": {
+        "chunkId": "7de368",
+        "hash": "f064f9d6",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "73": {
+        "chunkId": "7de368",
+        "hash": "a4232491",
+        "encoded": "return%20password%20===%20conPassword%20?%20null%20:%20%7B%20passwordMismatch:%20true%20%7D;",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "74": {
+        "chunkId": "7de368",
+        "hash": "6387e751",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "78": {
+        "chunkId": "7de368",
+        "hash": "c46ffadb",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "82": {
+        "chunkId": "7de368",
+        "hash": "74977a35",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "7de368"
+        ]
+      },
+      "85": {
+        "chunkId": "7de368",
+        "hash": "7bb00016",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "f18e4c",
+          "7de368"
+        ]
+      }
+    }
+  }
+}

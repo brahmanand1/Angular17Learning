@@ -1,0 +1,23 @@
+<input type="text" [(ngModel)]="task" /> <button (click)="addItem()">Add item</button>
+<table border="4">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>completed</th>
+            <th>remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(item of todos ; track item.id ){
+            <tr>
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.status}}</td>
+                <td><button (click)="markComp(item.id)">mark as completed</button></td>
+                <td><button (click)="removeItem(item.id)">remove</button></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,46 @@
+This is reactive form;
+<form [formGroup]="form" (ngSubmit)="save()"> 
+    Name : <input type="text" formControlName="name" /> 
+    <!-- {{form.get('name')?.errors | json}} -->
+    @if(form.get('name')?.hasError('required') && form.get('name')?.touched){
+        <span > Name is invalid</span>
+    }
+
+    @if(form.get('name')?.hasError('checkName') && form.get('name')?.touched){
+        <span > this is custm validation</span>
+    }
+
+    <br/>
+    <div>
+        Male : <input type="radio" formControlName="gender" name="gender" value="male"/>
+        Female : <input type="radio" formControlName="gender" name="gender" value="female"/>
+        <button (click)="resetGender()">reset</button>
+    </div>
+    @if((form.get('gender')?.hasError('required') && form.get('gender')?.touched) || form.get('gender')?.value === ''){
+        <span>Please select a gender</span>
+    }
+
+    <div formGroupName="hobby">
+        Reading : <input type="checkbox" formControlName="reading"  />
+        Writing : <input type="checkbox" formControlName="writing"  />
+        Playing : <input type="checkbox" formControlName="playing"  />
+        <button (click)="resethobby()">reset Hobby</button>
+</div>
+
+    
+    @if(form.get('hobby')?.hasError('hobbyError') && form.get('hobby')?.touched){
+        <span>Please select at least 2 hobbies</span>
+    }
+    
+    <br />
+    Password : <input type="text" formControlName="password" /> <br />
+    Con Password : <input type="text" formControlName="conPassword" /> <br />
+
+    @if(form.hasError('passwordMismatch') && form.get('conPassword')?.touched){
+        <span>Passwords do not match</span>
+    }
+
+
+    
+    <button>Submit</button>
+</form>
